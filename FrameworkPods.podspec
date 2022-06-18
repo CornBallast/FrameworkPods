@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FrameworkPods'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = '客户端开发调试日志上报组件'
   s.homepage         = 'https://github.com/CornBallast/FrameworkPods.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yangshuai' => 'ys_yumicha@163.com' }
   s.source           = { :git => 'https://github.com/CornBallast/FrameworkPods.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
-  s.source_files = 'Product/FrameworkPods.framework/Headers/*.{h,m,plist}'
+  s.source_files = 'Product/**'
 end
