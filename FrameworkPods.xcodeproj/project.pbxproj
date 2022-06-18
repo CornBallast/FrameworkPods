@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D916761285DD7F6005BFD30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D916760285DD7F6005BFD30 /* UIKit.framework */; };
 		0DD0C81B285DD05500171E7D /* FrameworkPods.docc in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0C81A285DD05500171E7D /* FrameworkPods.docc */; };
 		0DD0C81C285DD05500171E7D /* FrameworkPods.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD0C819285DD05500171E7D /* FrameworkPods.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0DD0C824285DD05E00171E7D /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD0C822285DD05E00171E7D /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D916760285DD7F6005BFD30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk/System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		0DD0C816285DD05500171E7D /* FrameworkPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD0C819285DD05500171E7D /* FrameworkPods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkPods.h; sourceTree = "<group>"; };
 		0DD0C81A285DD05500171E7D /* FrameworkPods.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FrameworkPods.docc; sourceTree = "<group>"; };
@@ -26,17 +28,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D916761285DD7F6005BFD30 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D91675F285DD7F6005BFD30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D916760285DD7F6005BFD30 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0DD0C80C285DD05500171E7D = {
 			isa = PBXGroup;
 			children = (
 				0DD0C818285DD05500171E7D /* FrameworkPods */,
 				0DD0C817285DD05500171E7D /* Products */,
+				0D91675F285DD7F6005BFD30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
