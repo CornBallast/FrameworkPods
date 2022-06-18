@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FrameworkPods'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = '客户端开发调试日志上报组件'
   s.homepage         = 'https://github.com/CornBallast/FrameworkPods.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
