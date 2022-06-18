@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.author           = { 'yangshuai' => 'ys_yumicha@163.com' }
   s.source           = { :git => 'https://github.com/CornBallast/FrameworkPods.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
-  s.source_files = 'Product/*'
+  s.source_files = 'Product/FrameworkPods.framework/Headers/*.{h,m,plist}'
 end
